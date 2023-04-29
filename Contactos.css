@@ -173,3 +173,78 @@ footer{
     font-family: 'Poppins';
     font-style: normal;
     color: black;}
+
+
+    button{
+        background-color: transparent;
+        border: transparent;
+    }
+
+    
+    
+    @media screen and (min-width:100px) and (max-width: 1120px){
+        footer{
+            display: none;
+        }
+    
+        #CH{
+            display: none;
+        }
+    
+        header{
+            position: static;
+            width: 99%;
+            text-shadow: 7px 5px 6px #090909;
+            max-width: 100%;
+            max-height: min-content;
+            height: 10vh;
+            background-color: transparent;
+            display: grid;
+            justify-content: end;
+            z-index: 1;
+            align-content: center;
+        }
+    
+        header div nav ul li {
+            list-style: none;
+            display: inline-flex;
+            font-family: 'Poppins';
+            width: 10vw;
+            font-size: 2.3vw;
+            margin-right: 13px;
+            color: white;
+            font-style: normal;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    
+    
+    
+    }
+    
+    @media screen and (min-width:920px) and (max-width: 1000px){
+        h1{
+            font-size: 3vw;
+        }
+            h2{
+            font-size: 4vw;
+        }
+                h3{
+            font-size: 2vw;
+        }
+        #Puntos{
+            display:none;
+        }
+    
+        #Linea{
+            display: none;
+        }
+    
+    
+    }
+    
+    @media screen and (width: 2560px){
+        #Linea{
+            display: none;
+        }
+    }
