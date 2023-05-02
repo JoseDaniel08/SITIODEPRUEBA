@@ -221,7 +221,7 @@ section{
 }
 
 
-@media all and (max-width: 800px){
+@media all and (max-width: 600px){
     header{
         position: static;
         width: 100%;
@@ -325,10 +325,10 @@ section{
   }
 
   .Interfaz{
-    height: 10vh;
     width: 48vw;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    margin-bottom: 10px;
   }
 }
