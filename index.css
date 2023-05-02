@@ -325,7 +325,7 @@ section{
   }
 
   .Interfaz{
-    height: 25vh;
+    height: 10vh;
     width: 48vw;
     overflow: hidden;
     text-overflow: ellipsis;
