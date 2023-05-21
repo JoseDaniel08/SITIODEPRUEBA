@@ -1,0 +1,13 @@
+body{
+background-color: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.navbar bg-body-tertiary fixed-top{
+    background-color: aquamarine;
+}
+

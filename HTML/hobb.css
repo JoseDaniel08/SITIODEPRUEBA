@@ -1,0 +1,21 @@
+body{
+    background-color: darkorange;
+}
+
+.navbar bg-body-tertiary fixed-top{
+    background-color: aquamarine;
+}
+
+figure{
+    margin: 2px 5 1rem;
+    color: rgb(36, 36, 36);
+}
+
+.blockquote-footer{
+    color: rgb(65 71 253);
+    font-size: 1.5em;
+}
+
+cite{
+    color: black;
+}
